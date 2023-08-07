@@ -15,5 +15,5 @@ def processa_formulario(request):
         #nome = form.data['nome']
         #email = form.data['email']
         form.save()
-        return HttpResponse(f"Salvo com sucesso")
+        return HttpResponse("Salvo com sucesso")
     return HttpResponse("Dados inválidos")
